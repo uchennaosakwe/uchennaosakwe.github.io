@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#edf9f2" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<title>Uche — Road to Financial Freedom</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310b981'/%3E%3Cpath d='M18 40 L28 26 L36 34 L46 20' stroke='white' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" sizes="192x192" type="image/png" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<script>
+/* App manifest for Add to Home screen / install — built inline so the app stays one file */
+(function(){
+  try {
+    var I192 = "data:image/png;base64,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";
+    var I512 = "data:image/png;base64,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";
+    var man = {
+      name: "Uche — Road to Financial Freedom",
+      short_name: "Uche",
+      start_url: ".", scope: ".",
+      display: "standalone",
+      background_color: "#edf9f2",
+      theme_color: "#0f766e",
+      icons: [
+        { src: I192, sizes: "192x192", type: "image/png", purpose: "any" },
+        { src: I512, sizes: "512x512", type: "image/png", purpose: "any" },
+        { src: I512, sizes: "512x512", type: "image/png", purpose: "maskable" }
+      ]
+    };
+    var link = document.createElement('link');
+    link.rel = 'manifest';
+    link.href = URL.createObjectURL(new Blob([JSON.stringify(man)], {type:'application/manifest+json'}));
+    document.head.appendChild(link);
+  } catch(e) {}
+})();
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Fraunces:ital,opsz,wght@1,9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#edf9f2; --bar:rgba(237,249,242,.9);
+    --surface:#ffffff; --surface2:#f0f3f8; --line:#e4e8f0;
+    --text:#16233c; --muted:#5b6b84; --faint:#9aa8bd;
+    --inc:#10b981;    /* emerald — income */
+    --inv:#6366f1;    /* indigo — investments */
+    --sav:#06b6d4;    /* cyan — savings */
+    --spd:#f59e0b;    /* amber — spending */
+    --over:#f43f5e;   /* rose — over budget */
+  }
+  html{background:var(--bg)}
+  body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);
+       padding-bottom:calc(4.6rem + env(safe-area-inset-bottom));transition:background .35s}
+  body.v-home{--bg:#edf9f2;--bar:rgba(237,249,242,.9)}
+  body.v-activity{--bg:#fdf5e6;--bar:rgba(253,245,230,.9)}
+  body.v-stats{--bg:#fdeff1;--bar:rgba(253,239,241,.9)}
+  body.v-invest{--bg:#eff0fe;--bar:rgba(239,240,254,.9)}
+  body.v-portfolio{--bg:#f6effe;--bar:rgba(246,239,254,.9)}
+  body.v-setup{--bg:#eaf7fb;--bar:rgba(234,247,251,.9)}
+  body.v-settings{--bg:#f1f4f7;--bar:rgba(241,244,247,.9)}
+  .mono{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:18px;
+        box-shadow:0 1px 3px rgba(22,35,60,.06)}
+  .hero-card{background:linear-gradient(135deg,#047857 0%,#0f766e 55%,#0e7490 100%);
+             border:none;color:#fff;position:relative;overflow:hidden;
+             box-shadow:0 10px 26px rgba(15,118,110,.32)}
+  .hero-card::after{content:'';position:absolute;right:-3.2rem;top:-3.2rem;width:11rem;height:11rem;
+                    border-radius:50%;background:rgba(255,255,255,.08);pointer-events:none}
+  .hero-card::before{content:'';position:absolute;right:2.2rem;bottom:-4.5rem;width:8rem;height:8rem;
+                     border-radius:50%;background:rgba(255,255,255,.06);pointer-events:none}
+  .ctl{background:var(--surface2);border:1px solid var(--line);border-radius:12px;color:var(--text);
+       padding:.65rem .8rem;width:100%;outline:none;font-size:16px} /* 16px stops Android zoom */
+  .ctl:focus{border-color:var(--inv);background:#fff}
+  .chip{border:1px solid var(--line);border-radius:999px;padding:.45rem .85rem;font-size:.84rem;
+        color:var(--muted);white-space:nowrap;background:var(--surface);
+        transition:background .15s,color .15s,border-color .15s}
+  .chip.on{background:#eef1ff;color:#4338ca;border-color:#c3cbfd}
+  .btn-primary{background:linear-gradient(135deg,#10b981,#06b6d4);color:#fff;border-radius:14px;
+               font-weight:700;padding:.9rem 1rem;width:100%;font-size:1rem;
+               box-shadow:0 5px 16px rgba(16,185,129,.35);transition:filter .15s,transform .15s}
+  .btn-primary:active{filter:brightness(1.08);transform:scale(.99)}
+  .btn-quiet{border:1px solid var(--line);border-radius:12px;color:var(--muted);
+             padding:.6rem .9rem;font-size:.87rem;background:var(--surface)}
+  .btn-quiet:active,.btn-quiet:hover{color:var(--text);border-color:var(--faint)}
+  .navbtn{color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:.16rem;
+          font-size:.6rem;padding:.25rem .25rem;min-width:2.7rem}
+  .nicon{width:2.3rem;height:1.55rem;border-radius:999px;display:flex;align-items:center;
+         justify-content:center;background:var(--nvt);color:var(--nv);
+         transition:background .2s,color .2s,transform .2s}
+  .navbtn.on{color:var(--nv);font-weight:600}
+  .navbtn.on .nicon{background:var(--nv);color:#fff;transform:translateY(-1px);
+                    box-shadow:0 3px 9px rgba(22,35,60,.22)}
+  .nv-home{--nv:#10b981;--nvt:#d7f5e8}
+  .nv-activity{--nv:#f59e0b;--nvt:#fdeecd}
+  .nv-stats{--nv:#f43f5e;--nvt:#fde1e7}
+  .nv-invest{--nv:#6366f1;--nvt:#e4e6fd}
+  .nv-portfolio{--nv:#a855f7;--nvt:#f0e2fd}
+  .nv-setup{--nv:#06b6d4;--nvt:#d9f3f9}
+  .nv-settings{--nv:#64748b;--nvt:#e8edf3}
+  .chip[class*="nv-"].on{background:var(--nvt);color:var(--nv);border-color:var(--nv)}
+  .fab{width:3.3rem;height:3.3rem;border-radius:50%;
+       background:linear-gradient(135deg,#10b981,#06b6d4);color:#fff;
+       display:flex;align-items:center;justify-content:center;flex-shrink:0;
+       box-shadow:0 6px 18px rgba(16,185,129,.45);transition:transform .15s}
+  .fab:active{transform:scale(.92)}
+  .bar-track{height:.55rem;border-radius:999px;background:#e9edf4;overflow:hidden}
+  .bar-fill{height:100%;border-radius:999px;transition:width .5s cubic-bezier(.4,0,.2,1)}
+  .sheet{position:fixed;inset:0;z-index:50;display:none}
+  .sheet.open{display:block}
+  .sheet-bg{position:absolute;inset:0;background:rgba(22,35,60,.42);backdrop-filter:blur(3px)}
+  .sheet-body{position:absolute;left:0;right:0;bottom:0;max-height:92dvh;overflow-y:auto;
+              background:var(--surface);border:1px solid var(--line);border-bottom:none;
+              border-radius:22px 22px 0 0;padding:1.1rem 1.1rem calc(1.1rem + env(safe-area-inset-bottom));
+              box-shadow:0 -8px 30px rgba(22,35,60,.18);
+              transform:translateY(100%);transition:transform .28s cubic-bezier(.32,.72,.24,1)}
+  .sheet.open .sheet-body{transform:translateY(0)}
+  @media (min-width:768px){ .sheet-body{max-width:30rem;margin:0 auto;border-radius:22px;bottom:2rem;border-bottom:1px solid var(--line)} }
+  .seg{display:flex;background:var(--surface2);border-radius:12px;padding:.25rem;gap:.25rem}
+  .seg button{flex:1;border-radius:9px;padding:.5rem;font-size:.88rem;color:var(--muted);font-weight:600}
+  .seg button.on{background:#fff;color:var(--text);box-shadow:0 1px 4px rgba(22,35,60,.15)}
+  .txrow{display:flex;align-items:center;gap:.75rem;padding:.7rem .3rem;border-bottom:1px solid var(--line)}
+  .txrow:last-child{border-bottom:none}
+  .icobox{width:2.3rem;height:2.3rem;border-radius:12px;background:var(--surface2);
+          display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .badge{border-radius:12px;background:var(--surface2);padding:.7rem .8rem}
+  .lockwrap{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;
+            background:linear-gradient(150deg,#047857 0%,#0f766e 55%,#0e7490 100%);padding:1.5rem}
+  .lockcard{background:rgba(255,255,255,.97);border-radius:22px;padding:2rem 1.6rem;width:100%;max-width:20rem;
+            box-shadow:0 20px 50px rgba(4,47,42,.45);text-align:center}
+  .pininput{background:var(--surface2);border:1px solid var(--line);border-radius:14px;width:100%;
+            padding:.8rem;font-size:1.4rem;text-align:center;letter-spacing:.5em;outline:none;
+            font-family:'IBM Plex Mono',monospace}
+  .pininput:focus{border-color:#10b981}
+  .shake{animation:shake .4s}
+  @keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+  details>summary{list-style:none;cursor:pointer}
+  details>summary::-webkit-details-marker{display:none}
+  .gchev{transition:transform .25s;color:var(--faint);flex-shrink:0}
+  details[open]>summary .gchev{transform:rotate(180deg)}
+  .guide-item{border-top:1px solid var(--line)}
+  .guide-item summary{padding:.85rem 0;display:flex;align-items:center;gap:.6rem}
+  .guide-body{padding:0 0 1rem 2.15rem;font-size:.86rem;line-height:1.55;color:var(--muted)}
+  .guide-body b{color:var(--text);font-weight:600}
+  .guide-body p+p{margin-top:.5rem}
+  .brandmark{width:2.15rem;height:2.15rem;border-radius:13px;flex-shrink:0;
+             background:linear-gradient(135deg,#10b981,#06b6d4);color:#fff;font-weight:700;
+             font-size:1.05rem;display:flex;align-items:center;justify-content:center;
+             box-shadow:0 3px 10px rgba(16,185,129,.35)}
+  .motto{font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:600;
+         background:linear-gradient(90deg,#047857,#0e7490 55%,#4f46e5);
+         -webkit-background-clip:text;background-clip:text;color:transparent;
+         -webkit-text-fill-color:transparent}
+  .hide-scroll::-webkit-scrollbar{display:none}
+  .hide-scroll{scrollbar-width:none}
+  ::placeholder{color:var(--faint)}
+  input[type=number]::-webkit-inner-spin-button{display:none}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important} }
+</style>
+</head>
+<body class="v-home">
+
+<!-- ============ LOCK SCREEN ============ -->
+<div class="lockwrap" id="lockScreen">
+  <div class="lockcard" id="lockCard">
+    <span class="brandmark mx-auto" style="width:2.8rem;height:2.8rem;font-size:1.3rem">U</span>
+    <div class="font-semibold mt-3" style="font-size:.6rem;letter-spacing:.22em;color:var(--muted)">UCHE</div>
+    <div class="motto text-lg" style="padding-right:.15em">Road to Financial Freedom</div>
+    <input id="pinInput" class="pininput mt-5" type="password" inputmode="numeric" autocomplete="off"
+           maxlength="10" placeholder="••••••" aria-label="Passcode"
+           onkeydown="if(event.key==='Enter')tryUnlock()">
+    <p id="pinMsg" class="text-xs mt-2" style="color:var(--over);min-height:1rem"></p>
+    <button class="btn-primary mt-2" onclick="tryUnlock()">Unlock</button>
+    <button class="btn-quiet w-full mt-2 hidden items-center justify-center gap-2" id="bioBtn" style="display:none" onclick="bioUnlock()">
+      <i data-lucide="fingerprint" style="width:1.05rem;height:1.05rem"></i>Use fingerprint</button>
+  </div>
+</div>
+
+<!-- ============ TOP BAR ============ -->
+<header class="sticky top-0 z-20 border-b" style="background:var(--bar);backdrop-filter:blur(10px);border-color:var(--line);transition:background .35s">
+  <div class="max-w-3xl mx-auto px-4 py-2.5 flex items-center justify-between">
+    <div class="flex items-center gap-2.5 min-w-0">
+      <span class="brandmark">U</span>
+      <span class="min-w-0" style="line-height:1.18">
+        <span class="block font-semibold" style="font-size:.58rem;letter-spacing:.2em;color:var(--muted)">UCHE</span>
+        <span class="block motto text-base sm:text-lg truncate" style="padding-right:.15em">Road to Financial Freedom</span>
+      </span>
+    </div>
+    <nav class="hidden md:flex gap-1 text-sm">
+      <button class="chip nv-home on" data-nav="home" onclick="showView('home')">Home</button>
+      <button class="chip nv-activity" data-nav="activity" onclick="showView('activity')">Activity</button>
+      <button class="chip nv-stats" data-nav="stats" onclick="showView('stats')">Stats</button>
+      <button class="chip nv-invest" data-nav="invest" onclick="showView('invest')">Invest</button>
+      <button class="chip nv-portfolio" data-nav="portfolio" onclick="showView('portfolio')">Portfolio</button>
+      <button class="chip nv-setup" data-nav="setup" onclick="showView('setup')">Setup</button>
+      <button class="chip nv-settings" data-nav="settings" onclick="showView('settings')">Settings</button>
+      <button class="chip" onclick="lockApp()" aria-label="Lock app">Lock</button>
+    </nav>
+    <div class="md:hidden flex gap-2">
+      <button class="btn-quiet" style="padding:.45rem .7rem" onclick="lockApp()" aria-label="Lock app">
+        <i data-lucide="lock" style="width:1.1rem;height:1.1rem"></i>
+      </button>
+      <button class="btn-quiet" style="padding:.45rem .7rem" onclick="showView('settings')" aria-label="Settings">
+        <i data-lucide="settings-2" style="width:1.1rem;height:1.1rem"></i>
+      </button>
+      <button class="btn-quiet" style="padding:.45rem .7rem" onclick="openSheet()" aria-label="Add transaction">
+        <i data-lucide="plus" style="width:1.1rem;height:1.1rem"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-3xl mx-auto px-4 py-5 space-y-5">
+
+<!-- ============ HOME ============ -->
+<section id="view-home" class="space-y-5">
+
+  <!-- Greeting -->
+  <div class="px-1">
+    <div class="text-xs" style="color:var(--muted)" id="todayLine"></div>
+    <h1 class="text-xl font-bold tracking-tight" id="greeting">Hello</h1>
+  </div>
+
+  <!-- Safe to spend -->
+  <div class="card hero-card p-5 sm:p-6">
+    <div class="text-sm" style="color:rgba(255,255,255,.78)">Safe to spend this month</div>
+    <div class="mono text-4xl font-semibold mt-1" id="safeToSpend" style="color:#fff">£0.00</div>
+    <div class="text-sm mt-1" id="dailyLine" style="color:rgba(255,255,255,.75)"></div>
+    <div class="mt-4 bar-track" style="background:rgba(255,255,255,.22)">
+      <div class="bar-fill" id="safeBar" style="width:0%;background:#a7f3d0"></div></div>
+  </div>
+
+  <!-- 40/20/40 pacing -->
+  <div class="card p-5 space-y-4">
+    <div class="grid grid-cols-3 gap-2">
+      <div class="badge">
+        <div class="text-xs" style="color:var(--muted)">Income logged</div>
+        <div class="mono font-semibold mt-0.5" id="availLogged" style="color:var(--inc)">£0.00</div>
+        <div class="text-xs truncate" id="availNote" style="color:var(--faint)"></div>
+      </div>
+      <div class="badge" id="availCarryWrap">
+        <div class="text-xs" style="color:var(--muted)">Carried over</div>
+        <div class="mono font-semibold mt-0.5" id="availCarry" style="color:var(--sav)">£0.00</div>
+        <div class="text-xs" style="color:var(--faint)">from last month</div>
+      </div>
+      <div class="badge" style="background:#e4e6fd">
+        <div class="text-xs" style="color:#4b47d6">Available</div>
+        <div class="mono font-semibold mt-0.5" id="availTotal" style="color:#4b47d6">£0.00</div>
+        <div class="text-xs" style="color:#6366f1">budgeted below</div>
+      </div>
+    </div>
+    <div class="flex items-center justify-between">
+      <h2 class="font-bold" id="ruleTitle">The 40 / 20 / 40 rule</h2>
+      <button class="btn-quiet" onclick="showView('settings')" id="incomePrompt">Set income</button>
+    </div>
+    <div>
+      <div class="flex h-2.5 rounded-full overflow-hidden">
+        <div id="ribLiving" style="width:40%;background:var(--spd);transition:width .4s"></div>
+        <div id="ribSavings" style="width:20%;background:var(--sav);transition:width .4s"></div>
+        <div id="ribInvest" style="width:40%;background:var(--inv);transition:width .4s"></div>
+      </div>
+      <div class="flex justify-between mt-1" style="font-size:.65rem;color:var(--faint)">
+        <span id="ribLabL">40% living</span><span id="ribLabS">20% savings</span><span id="ribLabI">40% investing</span>
+      </div>
+    </div>
+    <div id="gauges" class="space-y-4"></div>
+  </div>
+
+  <!-- Highlights -->
+  <div class="card p-5">
+    <h2 class="font-bold mb-3">This month's highlights</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2" id="highlights"></div>
+  </div>
+
+  <!-- Recent -->
+  <div class="card p-5">
+    <div class="flex items-center justify-between mb-2">
+      <h2 class="font-bold">Recent activity</h2>
+      <button class="btn-quiet" onclick="showView('activity')">See all</button>
+    </div>
+    <div id="recentList"></div>
+    <p id="recentEmpty" class="text-sm py-5 text-center" style="color:var(--faint)">
+      Nothing logged yet. Tap the green button and record your first transaction — it takes five seconds.
+    </p>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section id="view-activity" class="hidden space-y-4">
+  <div class="card p-4 space-y-3">
+    <input id="search" class="ctl" placeholder="Search notes, merchants, categories" oninput="renderActivity()">
+    <div class="flex gap-2 overflow-x-auto hide-scroll" id="bucketFilters"></div>
+  </div>
+  <div class="card p-4">
+    <div id="activityList"></div>
+    <p id="activityEmpty" class="text-sm py-6 text-center" style="color:var(--faint)">No transactions match.</p>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section id="view-stats" class="hidden space-y-5">
+  <div class="card p-5">
+    <h2 class="font-bold mb-1">Where this month went</h2>
+    <p class="text-xs mb-3" style="color:var(--faint)">Spending by category, converted to pounds.</p>
+    <div style="max-width:19rem;margin:0 auto"><canvas id="donut"></canvas></div>
+    <p id="donutEmpty" class="text-sm py-6 text-center" style="color:var(--faint)">Log some spending and the chart appears.</p>
+  </div>
+  <div class="card p-5">
+    <h2 class="font-bold mb-1">Cash flow, September 2026 to October 2027</h2>
+    <p class="text-xs mb-3" style="color:var(--faint)">Income against the four outflow buckets.</p>
+    <canvas id="flowChart" height="220"></canvas>
+  </div>
+  <div class="card p-5">
+    <h2 class="font-bold mb-2">Daily burn rate</h2>
+    <div class="flex items-end gap-6">
+      <div><div class="text-xs" style="color:var(--muted)">Actual, per day</div>
+        <div class="mono text-2xl font-semibold mt-1" id="burnActual">£0.00</div></div>
+      <div><div class="text-xs" style="color:var(--muted)">Allowable, per day</div>
+        <div class="mono text-2xl font-semibold mt-1" id="burnAllow" style="color:var(--muted)">£0.00</div></div>
+    </div>
+    <p class="text-sm mt-2" id="burnVerdict" style="color:var(--faint)"></p>
+  </div>
+</section>
+
+<!-- ============ INVESTMENT OVERVIEW ============ -->
+<section id="view-invest" class="hidden space-y-5">
+  <div class="grid grid-cols-3 gap-2">
+    <div class="card p-3.5"><div class="text-xs" style="color:var(--muted)">Invested</div>
+      <div class="mono text-lg font-semibold mt-0.5" id="pfInvested">£0.00</div></div>
+    <div class="card p-3.5"><div class="text-xs" style="color:var(--muted)">Value</div>
+      <div class="mono text-lg font-semibold mt-0.5" id="pfValue">£0.00</div></div>
+    <div class="card p-3.5"><div class="text-xs" style="color:var(--muted)">Gain</div>
+      <div class="mono text-lg font-semibold mt-0.5" id="pfGain">—</div></div>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <div class="flex flex-wrap items-center justify-between gap-2">
+      <h2 class="font-bold">Where your money sits</h2>
+      <div class="flex items-center gap-2 text-xs" style="color:var(--muted)">
+        <label for="invCash">Cash &amp; savings</label>
+        <input id="invCash" type="number" inputmode="decimal" min="0" class="ctl mono" style="width:6.5rem;padding:.4rem .6rem"
+               placeholder="0" oninput="onInvCash(this.value)">
+      </div>
+    </div>
+    <div id="regionRows" class="space-y-3"></div>
+    <p id="regionEmpty" class="text-sm py-3" style="color:var(--faint)">Add a holding on the Portfolio tab, or a cash balance above, and the breakdown appears here.</p>
+  </div>
+
+  <div class="card p-5">
+    <h2 class="font-bold">This month's investment split</h2>
+    <p class="text-xs mt-1 mb-3" style="color:var(--faint)">Your <span id="invPctLabel">40%</span> investment bucket (<span class="mono" id="bucketAmt">£0.00</span>) divided by the weights below — keep them totalling 100.</p>
+    <div class="grid grid-cols-2 gap-2" id="weightGrid"></div>
+    <p id="weightWarn" class="hidden text-xs mt-2" style="color:var(--over)">Weights total <span id="weightTotal"></span>% — adjust to 100.</p>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section id="view-portfolio" class="hidden space-y-5">
+  <div class="card p-5">
+    <div class="flex items-center justify-between mb-1">
+      <h2 class="font-bold">Holdings</h2>
+      <button class="btn-quiet" onclick="openHoldingSheet()">Add holding</button>
+    </div>
+    <p class="text-xs mb-2" style="color:var(--faint)">Tap a value to update it after checking your apps — gains recalculate instantly. Values are per whole position, in the purchase currency.</p>
+    <div id="holdingsList"></div>
+    <p id="holdingsEmpty" class="text-sm py-4 text-center" style="color:var(--faint)">No holdings yet. Add your first with the button above.</p>
+  </div>
+</section>
+
+<!-- ============ SETUP ============ -->
+<section id="view-setup" class="hidden space-y-4">
+
+  <div class="card p-5">
+    <h2 class="font-bold">How to use this app</h2>
+    <p class="text-sm mt-1 mb-2" style="color:var(--muted)">Five minutes here pays for itself. Tap any section to open it.</p>
+
+    <details class="guide-item">
+      <summary><i data-lucide="rocket" style="width:1rem;height:1rem;color:#10b981"></i>
+        <span class="font-semibold text-sm">First-time setup</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p><b>1.</b> Open Settings (the gear, top right) and set your three shares (living / savings / investing). Your budget itself is built from income you <b>log</b> as it arrives, plus anything carried over from last month — so it grows with each payment rather than assuming one payday. The expected-income box is just a reference figure.</p>
+        <p><b>2.</b> Check the accounts list matches how you actually pay (add or remove accounts freely), and glance at the USD and NGN exchange rates so foreign entries convert sensibly.</p>
+        <p><b>3.</b> In Chrome on your phone, tap the browser menu and choose <b>Add to Home screen</b>. Tally then opens from its own icon like any app.</p>
+        <p><b>4.</b> Work through the three platform checklists below once — they set up your Trading 212 ISA, Trove, and emergency-fund account the cost-efficient way.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="zap" style="width:1rem;height:1rem;color:#f59e0b"></i>
+        <span class="font-semibold text-sm">The five-second logging habit</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p>The app lives or dies on one habit: <b>log the moment you pay</b>, while your phone is still in your hand. The green button is under your thumb on purpose — tap it, type the amount, tap a category chip, tap Save. Date, time and your last-used account are pre-filled.</p>
+        <p>Add the merchant in the note field when you can ("Tesco", "TfL", "LemFi") — it powers the Top Merchant insight and makes month-end exports far more useful. Tap any logged transaction to edit or delete it, so a mistyped amount is never a problem.</p>
+        <p>Paid in dollars or naira? Tag the currency on entry and the app converts it to pounds everywhere using your Settings rates.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="layout-dashboard" style="width:1rem;height:1rem;color:#10b981"></i>
+        <span class="font-semibold text-sm">Reading the Home screen</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p><b>Safe to spend</b> is your headline: your living share of this month's available money minus everything living-related you've spent, with a per-day figure for the days remaining. If the card's number is healthy, you're winning; if it turns rose, the month needs a quieter second half.</p>
+        <p>The <b>three pacing bars</b> compare each bucket to where you should be at this point in the month. Living costs warn as they approach the 40% ceiling; savings and investments tell you whether you're on pace to hit their targets — for those two, filling the bar is the goal, not the danger.</p>
+        <p>The three small cards above the rule show how the budget was built: <b>income logged</b> this month, what was <b>carried over</b> from last month, and the <b>available</b> total everything is budgeted from. Log a payment at any point in the month and all three, plus every bar below, move immediately.</p>
+        <p>The <b>highlights</b> row is your weekly mirror: the biggest single expense of the last seven days, the merchant taking most of your money this month, and your combined saved-plus-invested total against its 60% target.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="bar-chart-3" style="width:1rem;height:1rem;color:#f43f5e"></i>
+        <span class="font-semibold text-sm">Reading Stats</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p>The <b>donut</b> shows where this month's outflow actually went, by category — tap a slice for its exact figure. The <b>cash-flow chart</b> runs September 2026 to October 2027: the green income bar against the stacked outflow bar (bills, discretionary, savings, investments) for every month. Watching the cyan and indigo segments grow month after month is the whole journey in one picture.</p>
+        <p><b>Daily burn</b> compares what you actually spend on discretionary things per day against what you can afford per day for the rest of the month. It's the single most honest number in the app — check it before a weekend, not after.</p>
+        <p>One nuance worth knowing: burn rate counts only <b>discretionary</b> categories (eating out, shopping, entertainment, personal, other), so logging groceries as Groceries rather than Shopping keeps it accurate.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="briefcase" style="width:1rem;height:1rem;color:#6366f1"></i>
+        <span class="font-semibold text-sm">Running the investment side</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p>Two tabs, two jobs. <b>Invest</b> is the overview: your totals, where money sits across UK, US, global, Nigerian and cash buckets, and this month's deployment plan — the weights split your 40% investment bucket into exact pound amounts per sleeve, so payday requires no arithmetic. Keep the weights totalling 100.</p>
+        <p><b>Portfolio</b> is the ledger. Add each purchase once (name, ticker, platform, market, currency, price, units), then update the current value whenever you check your platforms — monthly is plenty; daily checking mostly teaches anxiety. Gains and the pound conversion recalculate instantly.</p>
+        <p>Note the two systems are deliberately separate: logging an expense to "Trading 212 ISA" records the <b>cash leaving</b> your budget; adding a holding in Portfolio records <b>what it bought</b>. Do both — one feeds the budget, the other tracks the asset.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="calendar-check" style="width:1rem;height:1rem;color:#06b6d4"></i>
+        <span class="font-semibold text-sm">The month-end ritual</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p>On the last day of the month (or the first of the next): <b>export the CSV</b> from Settings, paste it into the companion workbook or Google Sheets if you use them, then tap <b>Start a fresh month</b>. A safety CSV downloads automatically, the month's totals are archived so the year chart keeps its history, and the log clears for a clean start. The investment side is never touched by a reset.</p>
+        <p>While you're there: update your holdings' current values, refresh the USD/NGN rates, and give the rollover a thought — any living-budget underspend is real money you can sweep into savings or investments.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="shield" style="width:1rem;height:1rem;color:#64748b"></i>
+        <span class="font-semibold text-sm">Keeping your data safe</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p>Everything lives in this browser on this phone — private by design, but it means <b>clearing the browser's site data erases Tally</b>, and nothing syncs between devices by itself. The defence is cheap: export a JSON backup from Settings every week or two and let it sit in your Downloads or Drive. Restoring it on any device brings back everything — transactions, archive, holdings, settings, even checklist ticks.</p>
+        <p>The JSON is the full clone for restoring; the CSV is the readable one for spreadsheets — and it imports back in too: <b>Import transactions from CSV</b> adds rows without touching what you already have, skipping anything already logged, so the same file can be re-imported safely. Keep both at month-end and you can never lose more than a few days.</p>
+        <p>The passcode screen keeps casual eyes out of the app, but the data on the device is not encrypted — treat the passcode as a privacy screen, not a vault.</p>
+      </div>
+    </details>
+
+    <details class="guide-item">
+      <summary><i data-lucide="lightbulb" style="width:1rem;height:1rem;color:#a855f7"></i>
+        <span class="font-semibold text-sm">Getting the most out of it</span>
+        <i data-lucide="chevron-down" class="gchev ml-auto" style="width:.95rem;height:.95rem"></i></summary>
+      <div class="guide-body">
+        <p><b>Pay yourself first.</b> Move the savings and investment shares out on payday — log them, watch those two bars fill on day one — then live on what's left. Budgeting what remains is far easier than saving what remains.</p>
+        <p><b>Automate the boring transfers.</b> Standing order to savings, AutoInvest on Trading 212, both dated the day after payday. Tally then becomes a place you record decisions, not a place you rely on willpower.</p>
+        <p><b>Batch the Nigeria leg quarterly</b> so fixed transfer fees stay tiny next to the amount — let its share of the monthly bucket accumulate as cash until it's worth sending.</p>
+        <p><b>Review weekly, act monthly.</b> A two-minute Sunday glance at Home and daily burn catches drift early; save the bigger decisions (weights, categories, rates) for month-end so you're steering, not twitching.</p>
+        <p><b>Be honest with categories.</b> The app only ever reflects what you tell it — a takeaway logged as Groceries flatters this month and misleads every chart after it.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card p-5">
+    <h2 class="font-bold">Getting each platform running</h2>
+    <p class="text-sm mt-1" style="color:var(--muted)">Work through these once. Ticks are saved on this device.</p>
+  </div>
+  <div id="investChecklists" class="space-y-3"></div>
+  <p class="text-xs px-2" style="color:var(--faint)">Tally stores everything in your browser on this device only — nothing is sent anywhere. It is a record-keeping tool, not financial advice. Investments can fall as well as rise.</p>
+</section>
+
+<!-- ============ SETTINGS ============ -->
+<section id="view-settings" class="hidden space-y-4">
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold">Income and rule</h2>
+    <label class="text-xs block" style="color:var(--muted)">Expected monthly income (£) — for reference only</label>
+    <input id="incomeInput" type="number" inputmode="decimal" min="0" class="ctl mono" placeholder="0"
+           oninput="onIncome(this.value)">
+    <label class="text-xs block pt-1" style="color:var(--muted)">Your rule — set the three shares (they must total 100%)</label>
+    <div class="grid grid-cols-3 gap-2">
+      <div><div class="text-xs mb-1" style="color:var(--spd)">Living %</div>
+        <input id="pctLiving" type="number" inputmode="numeric" min="0" max="100" class="ctl mono" oninput="onPct('living',this.value)"></div>
+      <div><div class="text-xs mb-1" style="color:var(--sav)">Savings %</div>
+        <input id="pctSavings" type="number" inputmode="numeric" min="0" max="100" class="ctl mono" oninput="onPct('savings',this.value)"></div>
+      <div><div class="text-xs mb-1" style="color:var(--inv)">Invest %</div>
+        <input id="pctInvest" type="number" inputmode="numeric" min="0" max="100" class="ctl mono" oninput="onPct('invest',this.value)"></div>
+    </div>
+    <p class="text-xs hidden" id="pctWarn" style="color:var(--over)">Shares total <span id="pctTotal"></span>% — adjust them to 100.</p>
+    <p class="text-xs" style="color:var(--faint)">Change these any time — as your income grows you can shift more toward investing, and every gauge, allowance and bucket updates instantly.</p>
+    <label class="flex items-start gap-2.5 cursor-pointer text-sm pt-1">
+      <input type="checkbox" id="carryToggle" onchange="onCarry(this.checked)"
+             style="accent-color:#10b981;width:1rem;height:1rem;margin-top:.2rem;flex-shrink:0">
+      <span>Carry unspent money into the next month
+        <span class="block text-xs" style="color:var(--faint)">Whatever is left after a month's spending, saving and investing is added to the next month's available total.</span>
+      </span>
+    </label>
+    <p class="text-xs" style="color:var(--faint)">Your budget is built from income you actually log, plus anything carried over — so it grows each time you record a payment, whenever in the month it lands. The expected figure above is only shown for comparison.</p>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold">Accounts</h2>
+    <div class="flex flex-wrap gap-2" id="accountList"></div>
+    <div class="flex gap-2">
+      <input id="newAccount" class="ctl" placeholder="Add an account or payment method">
+      <button class="btn-quiet" onclick="addAccount()">Add</button>
+    </div>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold">Exchange rates</h2>
+    <p class="text-xs" style="color:var(--faint)">For transactions tagged USD or NGN. Update by hand occasionally.</p>
+    <div class="grid grid-cols-2 gap-3">
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">US dollars per £1</label>
+        <input id="fxUSD" type="number" inputmode="decimal" step="0.01" class="ctl mono" oninput="onFx('USD',this.value)"></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Naira per £1</label>
+        <input id="fxNGN" type="number" inputmode="decimal" step="1" class="ctl mono" oninput="onFx('NGN',this.value)"></div>
+    </div>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold">Backups</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+      <button class="btn-quiet" onclick="exportCSV()">Export CSV</button>
+      <button class="btn-quiet" onclick="exportJSON()">Export JSON</button>
+      <label class="btn-quiet text-center cursor-pointer">Import backup
+        <input type="file" accept=".json" class="hidden" onchange="importJSON(this)"></label>
+      <label class="btn-quiet text-center cursor-pointer sm:col-span-3" style="border-color:var(--inc);color:var(--inc)">Import transactions from CSV
+        <input type="file" accept=".csv,text/csv" class="hidden" onchange="importCSV(this)"></label>
+    </div>
+    <p id="csvMsg" class="text-xs hidden" style="color:var(--inc)"></p>
+    <p class="text-xs" style="color:var(--faint)">Everything lives in this browser only. Export a JSON backup regularly — the CSV opens straight into the companion workbook or Google Sheets. <b>Import backup</b> replaces everything from a JSON file; <b>Import transactions from CSV</b> adds rows to what you already have and silently skips any it already holds, so re-importing the same file is safe.</p>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold">Fingerprint unlock</h2>
+    <p class="text-xs" id="bioStatus" style="color:var(--faint)">Checking availability…</p>
+    <button class="btn-quiet hidden" id="bioEnrollBtn" onclick="enrollBio()">Enable fingerprint</button>
+    <button class="btn-quiet hidden" id="bioRemoveBtn" onclick="removeBio()">Turn off fingerprint</button>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold">Month-end reset</h2>
+    <p class="text-xs" style="color:var(--faint)">At the end of each month, export your CSV or JSON above, then start fresh here. This clears the transaction log only — your income, accounts, exchange rates, and the whole investment section (holdings, cash, weights, checklists) stay exactly as they are. As a safety net, a CSV of the outgoing month downloads automatically before anything is cleared, and each month's totals are archived so the cash-flow chart on Stats keeps its full history.</p>
+    <button class="btn-quiet" onclick="resetMonth()">Start a fresh month</button>
+  </div>
+
+  <div class="card p-5 space-y-3">
+    <h2 class="font-bold" style="color:var(--over)">Danger zone</h2>
+    <button class="btn-quiet" style="color:var(--over);border-color:var(--over)" onclick="wipeAll()">Erase all data</button>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ BOTTOM NAV (mobile) ============ -->
+<nav class="md:hidden fixed bottom-0 left-0 right-0 z-30 border-t"
+     style="background:var(--bar);backdrop-filter:blur(12px);border-color:var(--line);padding-bottom:env(safe-area-inset-bottom);transition:background .35s">
+  <div class="flex items-center justify-around px-1 py-1.5">
+    <button class="navbtn nv-home on" data-nav="home" onclick="showView('home')">
+      <span class="nicon"><i data-lucide="layout-dashboard" style="width:1.1rem;height:1.1rem"></i></span>Home</button>
+    <button class="navbtn nv-activity" data-nav="activity" onclick="showView('activity')">
+      <span class="nicon"><i data-lucide="list" style="width:1.1rem;height:1.1rem"></i></span>Activity</button>
+    <button class="navbtn nv-stats" data-nav="stats" onclick="showView('stats')">
+      <span class="nicon"><i data-lucide="bar-chart-3" style="width:1.1rem;height:1.1rem"></i></span>Stats</button>
+    <button class="fab" onclick="openSheet()" aria-label="Add transaction">
+      <i data-lucide="plus" style="width:1.4rem;height:1.4rem"></i></button>
+    <button class="navbtn nv-invest" data-nav="invest" onclick="showView('invest')">
+      <span class="nicon"><i data-lucide="line-chart" style="width:1.1rem;height:1.1rem"></i></span>Invest</button>
+    <button class="navbtn nv-portfolio" data-nav="portfolio" onclick="showView('portfolio')">
+      <span class="nicon"><i data-lucide="briefcase" style="width:1.1rem;height:1.1rem"></i></span>Portfolio</button>
+    <button class="navbtn nv-setup" data-nav="setup" onclick="showView('setup')">
+      <span class="nicon"><i data-lucide="list-checks" style="width:1.1rem;height:1.1rem"></i></span>Setup</button>
+  </div>
+</nav>
+
+<!-- ============ QUICK-ADD SHEET ============ -->
+<div class="sheet" id="sheet">
+  <div class="sheet-bg" onclick="closeSheet()"></div>
+  <div class="sheet-body space-y-4">
+    <div class="flex items-center justify-between">
+      <h2 class="font-bold text-lg" id="sheetTitle">New transaction</h2>
+      <button class="btn-quiet" style="padding:.35rem .6rem" onclick="closeSheet()" aria-label="Close">
+        <i data-lucide="x" style="width:1rem;height:1rem"></i></button>
+    </div>
+
+    <div class="seg" id="typeSeg">
+      <button class="on" data-t="out" onclick="setType('out')">Expense</button>
+      <button data-t="in" onclick="setType('in')">Income</button>
+    </div>
+
+    <div>
+      <div class="flex items-center gap-2">
+        <span class="mono text-3xl" style="color:var(--faint)" id="ccySym">£</span>
+        <input id="tAmount" type="number" inputmode="decimal" min="0" step="any"
+               class="mono bg-transparent text-4xl font-semibold w-full outline-none" placeholder="0.00">
+      </div>
+      <div class="flex gap-2 mt-2" id="ccyChips">
+        <button class="chip on" data-c="GBP" onclick="setCcy('GBP')">GBP £</button>
+        <button class="chip" data-c="USD" onclick="setCcy('USD')">USD $</button>
+        <button class="chip" data-c="NGN" onclick="setCcy('NGN')">NGN ₦</button>
+      </div>
+    </div>
+
+    <div>
+      <label class="text-xs block mb-1.5" style="color:var(--muted)">Category</label>
+      <div class="flex gap-2 overflow-x-auto hide-scroll pb-1" id="catChips"></div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3">
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Sub-category (optional)</label>
+        <input id="tSub" class="ctl" list="subList" placeholder="e.g. Coffee"><datalist id="subList"></datalist></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">When</label>
+        <input id="tWhen" type="datetime-local" class="ctl mono"></div>
+    </div>
+
+    <div>
+      <label class="text-xs block mb-1.5" style="color:var(--muted)">Account</label>
+      <div class="flex gap-2 overflow-x-auto hide-scroll pb-1" id="accChips"></div>
+    </div>
+
+    <div><label class="text-xs block mb-1" style="color:var(--muted)">Merchant or note (optional)</label>
+      <input id="tNote" class="ctl" placeholder="e.g. Tesco, TfL, LemFi transfer"></div>
+
+    <button class="btn-primary" id="saveBtn" onclick="saveTx()">Save</button>
+    <button class="btn-quiet w-full hidden" id="deleteBtn" style="color:var(--over)" onclick="deleteTx()">Delete this transaction</button>
+  </div>
+</div>
+
+<!-- ============ ADD-HOLDING SHEET ============ -->
+<div class="sheet" id="hsheet">
+  <div class="sheet-bg" onclick="closeHoldingSheet()"></div>
+  <div class="sheet-body space-y-4">
+    <div class="flex items-center justify-between">
+      <h2 class="font-bold text-lg">New holding</h2>
+      <button class="btn-quiet" style="padding:.35rem .6rem" onclick="closeHoldingSheet()" aria-label="Close">
+        <i data-lucide="x" style="width:1rem;height:1rem"></i></button>
+    </div>
+    <div class="grid grid-cols-2 gap-3">
+      <div class="col-span-2"><label class="text-xs block mb-1" style="color:var(--muted)">Asset name</label>
+        <input id="hName" class="ctl" placeholder="Vanguard FTSE All-World"></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Ticker</label>
+        <input id="hTicker" class="ctl" placeholder="VWRP"></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Platform</label>
+        <input id="hPlatform" class="ctl" placeholder="Trading 212"></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Market</label>
+        <select id="hCountry" class="ctl"><option>UK</option><option>US</option><option>Global</option><option>Nigeria</option></select></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Currency</label>
+        <select id="hCcy" class="ctl"><option value="GBP">GBP £</option><option value="USD">USD $</option><option value="NGN">NGN ₦</option></select></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Price per unit</label>
+        <input id="hPrice" type="number" inputmode="decimal" min="0" step="any" class="ctl mono" placeholder="0.00"></div>
+      <div><label class="text-xs block mb-1" style="color:var(--muted)">Units</label>
+        <input id="hUnits" type="number" inputmode="decimal" min="0" step="any" class="ctl mono" placeholder="0.0"></div>
+      <div class="col-span-2"><label class="text-xs block mb-1" style="color:var(--muted)">Purchase date</label>
+        <input id="hDate" type="date" class="ctl mono"></div>
+    </div>
+    <p id="hMsg" class="text-xs" style="color:var(--over)"></p>
+    <button class="btn-primary" onclick="saveHolding()">Add to portfolio</button>
+  </div>
+</div>
+
+<script>
+/* ================= CATEGORIES ================= */
+const CATS = [
+  // Living — fixed
+  { n:'Rent',            b:'living', disc:false, i:'home' },
+  { n:'Utilities',       b:'living', disc:false, i:'zap' },
+  { n:'Phone & Internet',b:'living', disc:false, i:'wifi' },
+  { n:'Groceries',       b:'living', disc:false, i:'shopping-cart' },
+  { n:'Transport',       b:'living', disc:false, i:'bus' },
+  { n:'Subscriptions',   b:'living', disc:false, i:'repeat' },
+  // Living — discretionary
+  { n:'Eating Out',      b:'living', disc:true,  i:'utensils' },
+  { n:'Shopping',        b:'living', disc:true,  i:'shopping-bag' },
+  { n:'Entertainment',   b:'living', disc:true,  i:'clapperboard' },
+  { n:'Personal',        b:'living', disc:true,  i:'sparkles' },
+  { n:'Other Spending',  b:'living', disc:true,  i:'circle' },
+  // Savings
+  { n:'Emergency Fund',  b:'savings', disc:false, i:'shield' },
+  { n:'Cash ISA',        b:'savings', disc:false, i:'landmark' },
+  // Investments
+  { n:'Trading 212 ISA', b:'invest', disc:false, i:'line-chart' },
+  { n:'NGX / Trove',     b:'invest', disc:false, i:'globe' },
+  { n:'Other Invest',    b:'invest', disc:false, i:'trending-up' }
+];
+const INCOME_CATS = [
+  { n:'Salary',       i:'wallet' },
+  { n:'Freelance',    i:'briefcase' },
+  { n:'Other Income', i:'plus-circle' }
+];
+const BUCKET_META = {
+  living : { label:'Living costs',  color:'var(--spd)', pct:.40 },
+  savings: { label:'Savings',       color:'var(--sav)', pct:.20 },
+  invest : { label:'Investments',   color:'var(--inv)', pct:.40 }
+};
+const catOf = n => CATS.find(c => c.n === n);
+
+/* ================= STATE ================= */
+const KEY = 'tally-v1';
+const DEFAULT_STATE = {
+  income: 0,
+  fx: { USD: 1.35, NGN: 2000 },
+  pct: { living: 40, savings: 20, invest: 40 },
+  accounts: ['Revolut','Monzo','Lloyds','Trading 212','Trove','Cash'],
+  lastAccount: 'Monzo',
+  tx: [],  // {id, ts, type:'in'|'out', amount, ccy, cat, sub, account, note}
+  archive: {},    // {'2026-09': {inflow,bills,disc,savings,invest}} — totals kept after month-end resets
+  carryover: true,  // roll unspent money into the next month
+  holdings: [],   // {id,date,name,ticker,platform,country,ccy,price,units,current}
+  invCash: 0,
+  weights: { global: 60, uk: 15, bonds: 10, nigeria: 15 },
+  checks: {},
+  migratedCrossline: false
+};
+let memoryStore = null;
+function loadState(){
+  try{ const raw = localStorage.getItem(KEY);
+       if (raw) return { ...structuredClone(DEFAULT_STATE), ...JSON.parse(raw) }; }
+  catch(e){}
+  return memoryStore ?? structuredClone(DEFAULT_STATE);
+}
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){ memoryStore = state; } }
+let state = loadState();
+
+/* ================= HELPERS ================= */
+function refreshIcons(){ if (window.lucide?.createIcons) lucide.createIcons(); }
+window.addEventListener('load', refreshIcons);
+const SYM = { GBP:'£', USD:'$', NGN:'₦' };
+const gbp = n => '£' + (n||0).toLocaleString('en-GB',{minimumFractionDigits:2, maximumFractionDigits:2});
+const pfrac = k => Math.max(0, parseFloat(state.pct?.[k] ?? {living:40,savings:20,invest:40}[k]) || 0) / 100;
+const toGBP = (amt, ccy) => ccy === 'GBP' ? amt : (state.fx[ccy] > 0 ? amt / state.fx[ccy] : 0);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const monthKey = d => d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0');
+const nowLocalISO = () => { const d=new Date(); d.setMinutes(d.getMinutes()-d.getTimezoneOffset()); return d.toISOString().slice(0,16); };
+function monthTx(key){ return state.tx.filter(t => t.ts.slice(0,7) === key); }
+
+function txFigures(key){
+  const f = { inflow:0, bills:0, disc:0, savings:0, invest:0 };
+  for (const t of monthTx(key)){
+    const v = toGBP(t.amount, t.ccy);
+    if (t.type === 'in'){ f.inflow += v; continue; }
+    const c = catOf(t.cat);
+    if (!c) { f.disc += v; continue; }
+    if (c.b === 'savings') f.savings += v;
+    else if (c.b === 'invest') f.invest += v;
+    else c.disc ? f.disc += v : f.bills += v;
+  }
+  return f;
+}
+function monthFigures(key){
+  const f = txFigures(key);
+  const a = state.archive?.[key];
+  if (a) for (const k of ['inflow','bills','disc','savings','invest']) f[k] += a[k] || 0;
+  f.living = f.bills + f.disc;
+  return f;
+}
+
+/* ---- Budget engine: logged income + what last month left over ---- */
+function nextKey(key){ const [y,m] = key.split('-').map(Number); return monthKey(new Date(y, m, 1)); }
+function monthKeysWithData(){
+  const keys = new Set(Object.keys(state.archive || {}));
+  state.tx.forEach(t => keys.add(t.ts.slice(0,7)));
+  return [...keys].sort();
+}
+let _carryCache = {};
+function clearBudgetCache(){ _carryCache = {}; }
+function carryIn(key){
+  if (state.carryover === false) return 0;
+  if (_carryCache[key] !== undefined) return _carryCache[key];
+  const keys = monthKeysWithData();
+  if (!keys.length || key <= keys[0]) return (_carryCache[key] = 0);
+  let carry = 0, k = keys[0];
+  let guard = 0;
+  while (k < key && guard++ < 600){
+    const f = monthFigures(k);
+    const out = f.bills + f.disc + f.savings + f.invest;
+    carry = Math.max(0, carry + f.inflow - out);   // a deficit never punishes the next month
+    k = nextKey(k);
+  }
+  return (_carryCache[key] = carry);
+}
+function monthBudget(key){
+  const logged = monthFigures(key).inflow;
+  const carry = carryIn(key);
+  return { logged, carry, available: logged + carry };
+}
+
+/* ================= HOME ================= */
+function renderHome(){
+  const now = new Date();
+  const key = monthKey(now);
+  const f = monthFigures(key);
+  const day = now.getDate();
+  const dim = new Date(now.getFullYear(), now.getMonth()+1, 0).getDate();
+  const elapsed = day / dim;
+  clearBudgetCache();
+  const bud = monthBudget(key);
+  const inc = bud.available;          // budgets follow money actually received
+
+  const h = now.getHours();
+  document.getElementById('greeting').textContent =
+    h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';
+  document.getElementById('todayLine').textContent =
+    now.toLocaleDateString('en-GB',{weekday:'long', day:'numeric', month:'long'});
+  document.getElementById('incomePrompt').textContent = inc > 0 ? gbp(inc) + ' available' : 'Log income';
+  document.getElementById('availLogged').textContent = gbp(bud.logged);
+  document.getElementById('availCarry').textContent = gbp(bud.carry);
+  document.getElementById('availTotal').textContent = gbp(bud.available);
+  document.getElementById('availNote').textContent =
+    state.income > 0 ? `of ${gbp(state.income)} expected this month` : '';
+  document.getElementById('availCarryWrap').style.opacity = state.carryover === false ? '.45' : '1';
+
+  // Safe to spend
+  const pL = pfrac('living'), pS = pfrac('savings'), pI = pfrac('invest');
+  document.getElementById('ruleTitle').textContent = `The ${Math.round(pL*100)} / ${Math.round(pS*100)} / ${Math.round(pI*100)} rule`;
+  const tot = pL + pS + pI;
+  const w = f => tot > 0 ? (f/tot*100) + '%' : '33.3%';
+  document.getElementById('ribLiving').style.width = w(pL);
+  document.getElementById('ribSavings').style.width = w(pS);
+  document.getElementById('ribInvest').style.width = w(pI);
+  document.getElementById('ribLabL').textContent = Math.round(pL*100) + '% living';
+  document.getElementById('ribLabS').textContent = Math.round(pS*100) + '% savings';
+  document.getElementById('ribLabI').textContent = Math.round(pI*100) + '% investing';
+  const livingTarget = inc * pL;
+  const safe = livingTarget - f.living;
+  const daysLeft = dim - day + 1;
+  const el = document.getElementById('safeToSpend');
+  el.textContent = gbp(Math.abs(safe)).replace('£', safe < 0 ? '−£' : '£');
+  el.style.color = safe >= 0 ? '#ffffff' : '#fecdd3';
+  document.getElementById('dailyLine').textContent = inc > 0
+    ? (safe >= 0
+        ? `${gbp(safe/daysLeft)} a day for the next ${daysLeft} day${daysLeft>1?'s':''}`
+        : `Living costs are past this month's ${Math.round(pL*100)}% target`)
+    : 'Log an income transaction and your budget appears here';
+  const safeBar = document.getElementById('safeBar');
+  const usedPct = livingTarget > 0 ? Math.min(100, f.living/livingTarget*100) : 0;
+  safeBar.style.width = (100 - usedPct) + '%';
+  safeBar.style.background = safe >= 0 ? '#a7f3d0' : '#fda4af';
+
+  // Gauges
+  const g = document.getElementById('gauges');
+  g.innerHTML = Object.entries(BUCKET_META).map(([k, m]) => {
+    const share = pfrac(k === 'living' ? 'living' : k === 'savings' ? 'savings' : 'invest');
+    const target = inc * share;
+    const actual = k==='living' ? f.living : k==='savings' ? f.savings : f.invest;
+    const pct = target > 0 ? actual/target*100 : 0;
+    let status, color;
+    if (k === 'living'){
+      if (pct > 100){ status='Over budget'; color='var(--over)'; }
+      else if (pct > elapsed*100 + 8){ status='Approaching limit'; color='var(--spd)'; }
+      else { status='On track'; color='var(--inc)'; }
+    } else {
+      if (pct >= 100){ status='Target met'; color='var(--inc)'; }
+      else if (pct >= elapsed*100 - 10){ status='On pace'; color=m.color; }
+      else { status='Behind pace'; color='var(--spd)'; }
+    }
+    return `<div>
+      <div class="flex justify-between items-baseline text-sm mb-1.5">
+        <span>${m.label} <span style="color:var(--faint)">· ${Math.round(share*100)}%</span></span>
+        <span class="mono text-xs" style="color:var(--muted)">${gbp(actual)} of ${gbp(target)}</span>
+      </div>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100,pct)}%;background:${k==='living'?color:m.color}"></div></div>
+      <div class="text-xs mt-1" style="color:${color}">${inc>0 ? status : ''}</div>
+    </div>`;
+  }).join('');
+
+  // Highlights
+  const weekAgo = Date.now() - 7*864e5;
+  const outs = monthTx(key).filter(t => t.type === 'out');
+  const weekOuts = state.tx.filter(t => t.type==='out' && new Date(t.ts).getTime() >= weekAgo);
+  const biggest = weekOuts.reduce((a,b) => toGBP(b.amount,b.ccy) > toGBP(a?.amount??0, a?.ccy??'GBP') ? b : a, null);
+  const merch = {};
+  outs.forEach(t => { const n=(t.note||'').trim(); if(n) merch[n]=(merch[n]||0)+toGBP(t.amount,t.ccy); });
+  const top = Object.entries(merch).sort((a,b)=>b[1]-a[1])[0];
+  document.getElementById('highlights').innerHTML = `
+    <div class="badge" style="background:#fdeecd">
+      <div class="flex items-center gap-1.5 text-xs" style="color:#b57708">
+        <i data-lucide="trophy" style="width:.85rem;height:.85rem"></i>Highest expense, 7 days</div>
+      <div class="mono font-semibold mt-1" style="color:#7c4a05">${biggest ? gbp(toGBP(biggest.amount,biggest.ccy)) : '—'}</div>
+      <div class="text-xs truncate" style="color:#b57708">${biggest ? esc(biggest.note || biggest.cat) : 'no spending yet'}</div></div>
+    <div class="badge" style="background:#f0e2fd">
+      <div class="flex items-center gap-1.5 text-xs" style="color:#8636d9">
+        <i data-lucide="store" style="width:.85rem;height:.85rem"></i>Top merchant</div>
+      <div class="font-semibold mt-1 truncate" style="color:#5b21a6">${top ? esc(top[0]) : '—'}</div>
+      <div class="mono text-xs" style="color:#8636d9">${top ? gbp(top[1]) : 'add notes to see this'}</div></div>
+    <div class="badge" style="background:#d9f3f9">
+      <div class="flex items-center gap-1.5 text-xs" style="color:#0a7f97">
+        <i data-lucide="piggy-bank" style="width:.85rem;height:.85rem"></i>Saved + invested</div>
+      <div class="mono font-semibold mt-1" style="color:#075e70">${gbp(f.savings + f.invest)}</div>
+      <div class="text-xs" style="color:#0a7f97">target ${gbp(inc*(pS+pI))}</div></div>`;
+
+  // Recent
+  const recent = [...state.tx].sort((a,b)=>b.ts.localeCompare(a.ts)).slice(0,5);
+  document.getElementById('recentList').innerHTML = recent.map(txRow).join('');
+  document.getElementById('recentEmpty').style.display = recent.length ? 'none' : '';
+  refreshIcons();
+}
+
+/* ================= TX ROW ================= */
+const TINTS = {
+  in:      ['#d7f5e8','#0b8f63'],
+  savings: ['#d9f3f9','#0a7f97'],
+  invest:  ['#e4e6fd','#4b47d6'],
+  bills:   ['#fdeecd','#b57708'],
+  disc:    ['#fde1e7','#d42a52']
+};
+function txRow(t){
+  const isIn = t.type === 'in';
+  const c = isIn ? INCOME_CATS.find(x=>x.n===t.cat) : catOf(t.cat);
+  const cat = catOf(t.cat);
+  const tint = isIn ? TINTS.in : cat?.b === 'savings' ? TINTS.savings
+             : cat?.b === 'invest' ? TINTS.invest : cat?.disc ? TINTS.disc : TINTS.bills;
+  const color = isIn ? 'var(--inc)' : (cat?.b === 'savings' ? 'var(--sav)'
+              : cat?.b === 'invest' ? 'var(--inv)' : 'var(--text)');
+  const d = new Date(t.ts);
+  return `<div class="txrow" role="button" onclick="editTx(${t.id})">
+    <div class="icobox" style="background:${tint[0]}"><i data-lucide="${c?.i || 'circle'}" style="width:1.05rem;height:1.05rem;color:${tint[1]}"></i></div>
+    <div class="min-w-0 flex-1">
+      <div class="text-sm font-medium truncate">${esc(t.note || t.cat)}</div>
+      <div class="text-xs truncate" style="color:var(--faint)">${esc(t.cat)}${t.sub?' · '+esc(t.sub):''} — ${esc(t.account)}</div>
+    </div>
+    <div class="text-right flex-shrink-0">
+      <div class="mono text-sm font-semibold" style="color:${color}">${isIn?'+':'−'}${SYM[t.ccy]||''}${t.amount.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})}</div>
+      <div class="mono text-xs" style="color:var(--faint)">${d.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</div>
+    </div>
+  </div>`;
+}
+
+/* ================= ACTIVITY ================= */
+let bucketFilter = 'all';
+function renderActivity(){
+  const filters = [['all','All'],['living','Living'],['savings','Savings'],['invest','Investments'],['in','Income']];
+  document.getElementById('bucketFilters').innerHTML = filters.map(([k,l]) =>
+    `<button class="chip ${bucketFilter===k?'on':''}" onclick="bucketFilter='${k}';renderActivity()">${l}</button>`).join('');
+  const q = (document.getElementById('search').value || '').toLowerCase();
+  let list = [...state.tx].sort((a,b)=>b.ts.localeCompare(a.ts));
+  if (bucketFilter === 'in') list = list.filter(t=>t.type==='in');
+  else if (bucketFilter !== 'all') list = list.filter(t=>t.type==='out' && catOf(t.cat)?.b === bucketFilter);
+  if (q) list = list.filter(t => [t.note,t.cat,t.sub,t.account].join(' ').toLowerCase().includes(q));
+  // group by day
+  const groups = {};
+  list.forEach(t => { const k=t.ts.slice(0,10); (groups[k]=groups[k]||[]).push(t); });
+  document.getElementById('activityList').innerHTML = Object.entries(groups).map(([day, txs]) => {
+    const net = txs.reduce((s,t)=> s + (t.type==='in'?1:-1)*toGBP(t.amount,t.ccy), 0);
+    return `<div class="pt-3 first:pt-0">
+      <div class="flex justify-between text-xs mb-1" style="color:var(--faint)">
+        <span>${new Date(day+'T12:00').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'})}</span>
+        <span class="mono">${net>=0?'+':'−'}${gbp(Math.abs(net))}</span>
+      </div>${txs.map(txRow).join('')}</div>`;
+  }).join('');
+  document.getElementById('activityEmpty').style.display = list.length ? 'none' : '';
+  refreshIcons();
+}
+
+/* ================= STATS ================= */
+let donutChart = null, flowChartObj = null;
+const chartFont = { family:"'Space Grotesk', sans-serif", size: 11 };
+const chartInk = '#5b6b84';
+function renderStats(){
+  const key = monthKey(new Date());
+  // Donut
+  const byCat = {};
+  monthTx(key).filter(t=>t.type==='out').forEach(t => byCat[t.cat]=(byCat[t.cat]||0)+toGBP(t.amount,t.ccy));
+  const entries = Object.entries(byCat).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('donutEmpty').style.display = entries.length ? 'none' : '';
+  document.getElementById('donut').style.display = entries.length ? '' : 'none';
+  const palette = ['#f59e0b','#f43f5e','#06b6d4','#6366f1','#10b981','#ec4899','#84cc16','#0ea5e9','#a855f7','#fb923c','#14b8a6','#64748b'];
+  if (donutChart) donutChart.destroy();
+  if (entries.length){
+    donutChart = new Chart(document.getElementById('donut'), {
+      type:'doughnut',
+      data:{ labels:entries.map(e=>e[0]),
+             datasets:[{ data:entries.map(e=>+e[1].toFixed(2)), backgroundColor:palette,
+                         borderColor:'#ffffff', borderWidth:3, hoverOffset:6 }]},
+      options:{ cutout:'62%', plugins:{ legend:{ position:'bottom',
+                labels:{ color:chartInk, font:chartFont, boxWidth:10, boxHeight:10, padding:10 } } } }
+    });
+  }
+  // Six-month flow
+  // Fixed reporting window: Sep 2026 to Oct 2027 (edit these two lines to move it)
+  const CHART_START = { y: 2026, m: 9 };
+  const CHART_END   = { y: 2027, m: 10 };
+  const months = [];
+  for (let y = CHART_START.y, m = CHART_START.m;
+       y < CHART_END.y || (y === CHART_END.y && m <= CHART_END.m);
+       m === 12 ? (m = 1, y++) : m++){
+    months.push(y + '-' + String(m).padStart(2,'0'));
+  }
+  const figs = months.map(monthFigures);
+  const labels = months.map(k => { const [y,m] = k.split('-'); return new Date(+y, +m-1, 15).toLocaleDateString('en-GB',{month:'short', year:'2-digit'}); });
+  if (flowChartObj) flowChartObj.destroy();
+  flowChartObj = new Chart(document.getElementById('flowChart'), {
+    type:'bar',
+    data:{ labels, datasets:[
+      { label:'Income',        data:figs.map(f=>+f.inflow.toFixed(2)),  backgroundColor:'#10b981', stack:'in',  borderRadius:4 },
+      { label:'Fixed bills',   data:figs.map(f=>+f.bills.toFixed(2)),   backgroundColor:'#f59e0b', stack:'out', borderRadius:4 },
+      { label:'Discretionary', data:figs.map(f=>+f.disc.toFixed(2)),    backgroundColor:'#f43f5e', stack:'out', borderRadius:4 },
+      { label:'Savings',       data:figs.map(f=>+f.savings.toFixed(2)), backgroundColor:'#06b6d4', stack:'out', borderRadius:4 },
+      { label:'Investments',   data:figs.map(f=>+f.invest.toFixed(2)),  backgroundColor:'#6366f1', stack:'out', borderRadius:4 }
+    ]},
+    options:{ responsive:true,
+      scales:{ x:{ stacked:true, grid:{display:false}, ticks:{color:chartInk, font:chartFont} },
+               y:{ stacked:true, grid:{color:'rgba(22,35,60,.08)'}, ticks:{color:chartInk, font:chartFont,
+                    callback:v=>'£'+v.toLocaleString()} } },
+      plugins:{ legend:{ labels:{ color:chartInk, font:chartFont, boxWidth:10, boxHeight:10 } } } }
+  });
+  // Burn rate
+  const f = monthFigures(key);
+  const day = now.getDate();
+  const dim = new Date(now.getFullYear(), now.getMonth()+1, 0).getDate();
+  const burn = f.disc / day;
+  clearBudgetCache();
+  const safe = monthBudget(key).available*pfrac('living') - f.living;
+  const allow = safe > 0 ? safe / (dim - day + 1) : 0;
+  document.getElementById('burnActual').textContent = gbp(burn);
+  document.getElementById('burnActual').style.color = allow > 0 && burn > allow ? 'var(--over)' : 'var(--text)';
+  document.getElementById('burnAllow').textContent = gbp(allow);
+  document.getElementById('burnVerdict').textContent = state.income <= 0
+    ? 'Set your income to compare against an allowance.'
+    : burn <= allow
+      ? 'Discretionary spending is inside the daily allowance — keep going.'
+      : safe > 0
+        ? 'You\'re burning faster than the allowance; slowing down now keeps the month on target.'
+        : 'The living-costs budget is spent for this month; anything further comes out of next month\'s discipline.';
+}
+
+/* ================= QUICK-ADD SHEET ================= */
+let sheetType='out', sheetCcy='GBP', sheetCat=null, sheetAcc=null, editingId=null;
+function openSheet(prefill){
+  editingId = prefill?.id ?? null;
+  sheetType = prefill?.type ?? 'out';
+  sheetCcy  = prefill?.ccy ?? 'GBP';
+  sheetCat  = prefill?.cat ?? null;
+  sheetAcc  = prefill?.account ?? state.lastAccount;
+  document.getElementById('sheetTitle').textContent = editingId ? 'Edit transaction' : 'New transaction';
+  document.getElementById('tAmount').value = prefill?.amount ?? '';
+  document.getElementById('tSub').value    = prefill?.sub ?? '';
+  document.getElementById('tNote').value   = prefill?.note ?? '';
+  document.getElementById('tWhen').value   = prefill ? prefill.ts.slice(0,16) : nowLocalISO();
+  document.getElementById('deleteBtn').classList.toggle('hidden', !editingId);
+  document.getElementById('subList').innerHTML =
+    [...new Set(state.tx.map(t=>t.sub).filter(Boolean))].slice(0,30).map(s=>`<option value="${esc(s)}">`).join('');
+  paintSheet();
+  document.getElementById('sheet').classList.add('open');
+  setTimeout(()=>{ if(!prefill) document.getElementById('tAmount').focus(); }, 300);
+}
+function closeSheet(){ document.getElementById('sheet').classList.remove('open'); }
+function setType(t){ sheetType = t; sheetCat = null; paintSheet(); }
+function setCcy(c){ sheetCcy = c; paintSheet(); }
+function paintSheet(){
+  document.querySelectorAll('#typeSeg button').forEach(b=>b.classList.toggle('on', b.dataset.t===sheetType));
+  document.querySelectorAll('#ccyChips .chip').forEach(b=>b.classList.toggle('on', b.dataset.c===sheetCcy));
+  document.getElementById('ccySym').textContent = SYM[sheetCcy];
+  const cats = sheetType==='in' ? INCOME_CATS : CATS;
+  if (!sheetCat || !cats.some(c=>c.n===sheetCat)) sheetCat = cats[0].n;
+  document.getElementById('catChips').innerHTML = cats.map(c =>
+    `<button class="chip ${sheetCat===c.n?'on':''}" onclick="sheetCat='${c.n.replace(/'/g,"\\'")}';paintSheet()">
+       <i data-lucide="${c.i}" style="width:.85rem;height:.85rem;display:inline;vertical-align:-2px"></i> ${c.n}</button>`).join('');
+  if (!state.accounts.includes(sheetAcc)) sheetAcc = state.accounts[0] || '';
+  document.getElementById('accChips').innerHTML = state.accounts.map(a =>
+    `<button class="chip ${sheetAcc===a?'on':''}" onclick="sheetAcc='${a.replace(/'/g,"\\'")}';paintSheet()">${esc(a)}</button>`).join('');
+  refreshIcons();
+}
+function saveTx(){
+  const amount = parseFloat(document.getElementById('tAmount').value);
+  if (!(amount > 0)){ document.getElementById('tAmount').focus(); return; }
+  const t = {
+    id: editingId ?? Date.now(),
+    ts: (document.getElementById('tWhen').value || nowLocalISO()),
+    type: sheetType, amount, ccy: sheetCcy, cat: sheetCat,
+    sub: document.getElementById('tSub').value.trim(),
+    account: sheetAcc,
+    note: document.getElementById('tNote').value.trim()
+  };
+  if (editingId) state.tx = state.tx.map(x => x.id===editingId ? t : x);
+  else state.tx.push(t);
+  state.lastAccount = sheetAcc;
+  clearBudgetCache();
+  save(); closeSheet(); renderAll();
+}
+function editTx(id){
+  const t = state.tx.find(t=>t.id===id);
+  if (t) openSheet(t);
+}
+function deleteTx(){
+  if (editingId){ state.tx = state.tx.filter(t=>t.id!==editingId); clearBudgetCache(); save(); }
+  closeSheet(); renderAll();
+}
+
+/* ================= SETTINGS ================= */
+function onIncome(v){ state.income = Math.max(0, parseFloat(v)||0); save(); renderHome(); renderInvest(); }
+function onCarry(v){ state.carryover = !!v; clearBudgetCache(); save(); renderHome(); renderInvest(); }
+function onPct(k, v){
+  if (!state.pct) state.pct = { living:40, savings:20, invest:40 };
+  state.pct[k] = Math.min(100, Math.max(0, parseFloat(v)||0));
+  const total = ['living','savings','invest'].reduce((a,x)=>a+pfrac(x)*100, 0);
+  const warn = document.getElementById('pctWarn');
+  if (Math.round(total) !== 100){ warn.classList.remove('hidden'); document.getElementById('pctTotal').textContent = Math.round(total); }
+  else warn.classList.add('hidden');
+  save(); renderHome(); renderInvest();
+}
+function onFx(c,v){ state.fx[c] = Math.max(0, parseFloat(v)||0); save(); renderHome(); }
+function renderAccounts(){
+  document.getElementById('accountList').innerHTML = state.accounts.map(a =>
+    `<span class="chip on" style="display:inline-flex;align-items:center;gap:.4rem">${esc(a)}
+       <button onclick="removeAccount('${a.replace(/'/g,"\\'")}')" aria-label="Remove ${esc(a)}"
+               style="color:var(--faint)">✕</button></span>`).join('');
+}
+function addAccount(){
+  const el = document.getElementById('newAccount');
+  const v = el.value.trim();
+  if (v && !state.accounts.includes(v)){ state.accounts.push(v); save(); renderAccounts(); }
+  el.value='';
+}
+function removeAccount(a){
+  if (state.accounts.length <= 1) return;
+  state.accounts = state.accounts.filter(x=>x!==a);
+  if (state.lastAccount === a) state.lastAccount = state.accounts[0];
+  save(); renderAccounts();
+}
+function resetMonth(){
+  if (!state.tx.length){ alert('There are no transactions to clear yet.'); return; }
+  const ok = confirm('Start a fresh month?\n\nA CSV of all logged transactions will download first, then the transaction log is cleared. Your income, accounts, exchange rates, holdings, cash balance, weights and checklists are all kept.');
+  if (!ok) return;
+  exportCSV();
+  const months = [...new Set(state.tx.map(t => t.ts.slice(0,7)))];
+  if (!state.archive) state.archive = {};
+  for (const m of months){
+    const f = txFigures(m);
+    const a = state.archive[m] || { inflow:0, bills:0, disc:0, savings:0, invest:0 };
+    for (const k of ['inflow','bills','disc','savings','invest']) a[k] = +((a[k]||0) + f[k]).toFixed(2);
+    state.archive[m] = a;
+  }
+  state.tx = [];
+  save(); renderAll();
+}
+function wipeAll(){
+  if (confirm('Erase every transaction and setting on this device? Export a backup first if in doubt.')){
+    state = structuredClone(DEFAULT_STATE);
+    try{ localStorage.removeItem(KEY); }catch(e){}
+    initInputs(); renderAll();
+  }
+}
+
+/* ================= EXPORT / IMPORT ================= */
+function download(name, text, type){
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], {type}));
+  a.download = name; a.click(); URL.revokeObjectURL(a.href);
+}
+function exportCSV(){
+  const head = ['Date','Time','Type','Amount','Currency','Amount GBP','Category','Sub-Category','Bucket','Account','Note'];
+  const rows = [...state.tx].sort((a,b)=>a.ts.localeCompare(b.ts)).map(t => {
+    const c = catOf(t.cat);
+    const bucket = t.type==='in' ? 'Income' : c ? ({living: c.disc?'Discretionary':'40% Bills', savings:'20% Savings', invest:'40% Invest'})[c.b] : 'Discretionary';
+    return [t.ts.slice(0,10), t.ts.slice(11,16), t.type==='in'?'In':'Out', t.amount, t.ccy,
+            toGBP(t.amount,t.ccy).toFixed(2), t.cat, t.sub, bucket, t.account, t.note]
+      .map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(',');
+  });
+  download('tally-transactions.csv', [head.join(','), ...rows].join('\r\n'), 'text/csv');
+}
+function exportJSON(){ download('tally-backup-'+new Date().toISOString().slice(0,10)+'.json', JSON.stringify(state,null,2), 'application/json'); }
+function parseCSV(text){
+  const rows = []; let row = [], field = '', q = false;
+  text = text.replace(/^\uFEFF/, '');
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (q){
+      if (c === '"'){ if (text[i+1] === '"'){ field += '"'; i++; } else q = false; }
+      else field += c;
+    } else if (c === '"'){ q = true; }
+    else if (c === ','){ row.push(field); field = ''; }
+    else if (c === '\n'){ row.push(field); rows.push(row); row = []; field = ''; }
+    else if (c !== '\r'){ field += c; }
+  }
+  if (field.length || row.length){ row.push(field); rows.push(row); }
+  return rows.filter(r => r.some(v => v.trim() !== ''));
+}
+const txKey = t => [t.ts, t.type, (+t.amount).toFixed(2), t.ccy, t.cat, (t.note||'').trim().toLowerCase()].join('|');
+function importCSV(input){
+  const file = input.files[0]; if (!file) return;
+  const msg = document.getElementById('csvMsg');
+  const r = new FileReader();
+  r.onload = () => {
+    try{
+      const rows = parseCSV(r.result);
+      if (rows.length < 2) throw new Error('empty');
+      const head = rows[0].map(h => h.trim().toLowerCase());
+      const col = n => head.indexOf(n);
+      const iDate = col('date'), iAmt = col('amount'), iCat = col('category');
+      if (iDate < 0 || iAmt < 0 || iCat < 0) throw new Error('columns');
+      const iTime = col('time'), iType = col('type'), iCcy = col('currency'),
+            iSub = col('sub-category'), iAcc = col('account'), iNote = col('note');
+      const existing = new Set(state.tx.map(txKey));
+      let added = 0, skipped = 0, bad = 0;
+      const newAccounts = new Set();
+      for (let i = 1; i < rows.length; i++){
+        const c = rows[i];
+        const date = (c[iDate]||'').trim();
+        const amount = parseFloat(String(c[iAmt]||'').replace(/[^0-9.\-]/g, ''));
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !(amount > 0)){ bad++; continue; }
+        const time = /^\d{1,2}:\d{2}/.test((c[iTime]||'').trim()) ? (c[iTime]||'').trim().padStart(5,'0') : '12:00';
+        const t = {
+          id: Date.now() + i,
+          ts: date + 'T' + time,
+          type: (c[iType]||'').trim().toLowerCase() === 'in' ? 'in' : 'out',
+          amount,
+          ccy: (['GBP','USD','NGN'].includes((c[iCcy]||'').trim().toUpperCase()) ? (c[iCcy]||'').trim().toUpperCase() : 'GBP'),
+          cat: (c[iCat]||'').trim(),
+          sub: iSub >= 0 ? (c[iSub]||'').trim() : '',
+          account: iAcc >= 0 ? (c[iAcc]||'').trim() : (state.lastAccount || ''),
+          note: iNote >= 0 ? (c[iNote]||'').trim() : ''
+        };
+        if (!t.cat){ bad++; continue; }
+        if (existing.has(txKey(t))){ skipped++; continue; }
+        existing.add(txKey(t));
+        if (t.account && !state.accounts.includes(t.account)) newAccounts.add(t.account);
+        state.tx.push(t); added++;
+      }
+      newAccounts.forEach(a => state.accounts.push(a));
+      clearBudgetCache(); save(); renderAll();
+      msg.classList.remove('hidden');
+      msg.style.color = added ? 'var(--inc)' : 'var(--muted)';
+      msg.textContent = `${added} transaction${added===1?'':'s'} added` +
+        (skipped ? `, ${skipped} already here` : '') +
+        (bad ? `, ${bad} row${bad===1?'':'s'} skipped as unreadable` : '') + '.';
+    }catch(e){
+      msg.classList.remove('hidden');
+      msg.style.color = 'var(--over)';
+      msg.textContent = 'That file could not be read. It needs the app\'s own CSV columns — Date, Amount, Category and the rest.';
+    }
+  };
+  r.readAsText(file); input.value = '';
+}
+function importJSON(input){
+  const file = input.files[0]; if (!file) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try{
+      const data = JSON.parse(r.result);
+      if (Array.isArray(data.holdings) && !Array.isArray(data.tx)){
+        // Crossline backup: merge the portfolio side, keep transactions
+        state.holdings = data.holdings;
+        if (data.weights) state.weights = data.weights;
+        if (data.cash != null) state.invCash = data.cash;
+        if (data.checks) state.checks = { ...state.checks, ...data.checks };
+        if (!state.income && data.income) state.income = data.income;
+        if (data.fx) state.fx = { ...state.fx, ...data.fx };
+      } else {
+        state = { ...structuredClone(DEFAULT_STATE), ...data };
+      }
+      save(); initInputs(); renderAll();
+    }
+    catch(e){ alert('That file could not be read as a Tally or Crossline backup.'); }
+  };
+  r.readAsText(file); input.value='';
+}
+
+/* ================= INVEST (Crossline) ================= */
+const REGIONS = [
+  { key:'UK',      label:'United Kingdom',   color:'#0ea5e9' },
+  { key:'US',      label:'United States',    color:'#6366f1' },
+  { key:'Global',  label:'Global funds',     color:'#a855f7' },
+  { key:'Nigeria', label:'Nigeria',          color:'#10b981' },
+  { key:'Cash',    label:'Cash and savings', color:'#f59e0b' }
+];
+const WEIGHT_META = [
+  { key:'global',  label:'Global & US funds' },
+  { key:'uk',      label:'UK equities' },
+  { key:'bonds',   label:'Bonds & gilts' },
+  { key:'nigeria', label:'Nigerian assets' }
+];
+const INV_CHECKLISTS = [
+  { id:'t212', title:'Trading 212 — UK and US investing', icon:'line-chart', items:[
+    'Download the Trading 212 app and complete identity verification',
+    'Open a Stocks and Shares ISA (not the Invest account) so gains and dividends are tax-free',
+    'Deposit by bank transfer rather than card — card deposits carry a fee after a lifetime limit',
+    'Check you are buying the GBP-quoted London listing of each fund to avoid the FX fee',
+    'Create a Pie with your target weights and turn on AutoInvest',
+    'Switch on dividend reinvestment inside the Pie'
+  ]},
+  { id:'trove', title:'Trove — Nigerian market access', icon:'landmark', items:[
+    'Download Trove and complete KYC with your BVN, NIN and a valid ID',
+    'Use the Nigerian stocks (NGX) section — buy US and global assets through Trading 212 instead, where FX costs are far lower',
+    'Fund the naira wallet by bank transfer from your Nigerian account',
+    'Check the fee shown before your first order (about ₦100 plus 0.5% of the trade, plus NGX statutory fees)',
+    'Start small — NGX orders go from about ₦1,000, so a first trade can be tiny',
+    'Batch contributions quarterly so fixed transfer fees stay small next to the amount',
+    'Treat Trove as long-horizon money, not accessible cash — withdrawals can take time'
+  ]},
+  { id:'savings', title:'Emergency fund — UK cash savings', icon:'piggy-bank', items:[
+    'Pick an easy-access account or Cash ISA with a rate near the Bank of England base rate',
+    'Check the provider is FSCS-protected (deposits covered up to £120,000 per person per bank)',
+    'Set a standing order for 20% of income, dated the day after payday',
+    'Target three months of essential costs, then six',
+    'Re-check the rate twice a year — easy-access rates drift down quietly'
+  ]}
+];
+
+function pfTotals(){
+  let invested = 0, value = 0;
+  for (const h of state.holdings){
+    invested += toGBP(h.price * h.units, h.ccy);
+    value    += toGBP(h.current, h.ccy);
+  }
+  return { invested, value, total: value + state.invCash };
+}
+function renderInvest(){
+  const t = pfTotals();
+  document.getElementById('pfInvested').textContent = gbp(t.invested);
+  document.getElementById('pfValue').textContent = gbp(t.total);
+  const gain = t.value - t.invested;
+  const pct = t.invested > 0 ? gain / t.invested * 100 : 0;
+  const g = document.getElementById('pfGain');
+  g.textContent = state.holdings.length ? `${gain>=0?'+':'−'}${gbp(Math.abs(gain))} · ${pct>=0?'+':''}${pct.toFixed(1)}%` : '—';
+  g.style.color = gain >= 0 ? 'var(--inc)' : 'var(--over)';
+
+  document.getElementById('invCash').value = state.invCash || '';
+
+  // regions
+  const byRegion = { UK:0, US:0, Global:0, Nigeria:0, Cash: state.invCash };
+  for (const h of state.holdings){
+    const k = byRegion[h.country] !== undefined ? h.country : 'Global';
+    byRegion[k] += toGBP(h.current, h.ccy);
+  }
+  const total = Object.values(byRegion).reduce((a,b)=>a+b,0);
+  const rows = document.getElementById('regionRows');
+  const empty = document.getElementById('regionEmpty');
+  if (total <= 0){ rows.innerHTML=''; empty.style.display=''; }
+  else {
+    empty.style.display = 'none';
+    rows.innerHTML = REGIONS.filter(r => byRegion[r.key] > 0).map(r => {
+      const v = byRegion[r.key], p = v/total*100;
+      return `<div>
+        <div class="flex justify-between text-xs mb-1">
+          <span class="flex items-center gap-1.5"><span style="width:.5rem;height:.5rem;border-radius:2px;background:${r.color};display:inline-block"></span>${r.label}</span>
+          <span class="mono" style="color:var(--muted)">${gbp(v)} · ${p.toFixed(1)}%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:${p}%;background:${r.color}"></div></div>
+      </div>`;
+    }).join('');
+  }
+
+  // holdings list
+  const list = document.getElementById('holdingsList');
+  list.innerHTML = state.holdings.map(h => {
+    const cost = h.price * h.units, gn = h.current - cost;
+    const gp = cost > 0 ? gn/cost*100 : 0;
+    return `<div class="txrow">
+      <div class="min-w-0 flex-1">
+        <div class="text-sm font-medium truncate">${esc(h.name)}${h.ticker?` <span style="color:var(--faint)">${esc(h.ticker)}</span>`:''}</div>
+        <div class="text-xs truncate" style="color:var(--faint)">${esc(h.platform||'—')} · ${esc(h.country)} · cost <span class="mono">${(SYM[h.ccy]||'')+cost.toLocaleString('en-GB',{maximumFractionDigits:2})}</span></div>
+        <div class="mono text-xs mt-0.5" style="color:${gn>=0?'var(--inc)':'var(--over)'}">${gn>=0?'+':'−'}${(SYM[h.ccy]||'')+Math.abs(gn).toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})} (${gp>=0?'+':''}${gp.toFixed(1)}%) · ${gbp(toGBP(h.current,h.ccy))}</div>
+      </div>
+      <div class="flex items-center gap-1.5 flex-shrink-0">
+        <input type="number" inputmode="decimal" min="0" step="any" class="ctl mono" style="width:6.2rem;padding:.4rem .5rem"
+               value="${h.current}" aria-label="Current value of ${esc(h.name)}"
+               oninput="updateHolding(${h.id}, this.value)">
+        <button class="btn-quiet" style="padding:.4rem .5rem;color:var(--over)" aria-label="Remove ${esc(h.name)}"
+                onclick="removeHolding(${h.id})"><i data-lucide="trash-2" style="width:.9rem;height:.9rem"></i></button>
+      </div>
+    </div>`;
+  }).join('');
+  document.getElementById('holdingsEmpty').style.display = state.holdings.length ? 'none' : '';
+
+  // weights
+  clearBudgetCache();
+  const bucket = monthBudget(monthKey(new Date())).available * pfrac('invest');
+  document.getElementById('invPctLabel').textContent = Math.round(pfrac('invest')*100) + '%';
+  document.getElementById('bucketAmt').textContent = gbp(bucket);
+  document.getElementById('weightGrid').innerHTML = WEIGHT_META.map(w => `
+    <div class="badge">
+      <div class="text-xs mb-1.5" style="color:var(--muted)">${w.label}</div>
+      <div class="flex items-center gap-1.5">
+        <input type="number" inputmode="decimal" min="0" max="100" step="5" class="ctl mono" style="width:4rem;padding:.35rem .5rem"
+               value="${state.weights[w.key]}" oninput="onWeight('${w.key}', this.value)">
+        <span class="text-xs" style="color:var(--faint)">%</span>
+        <span class="mono text-xs font-semibold ml-auto">${gbp(bucket * (state.weights[w.key]||0) / 100)}</span>
+      </div>
+    </div>`).join('');
+  const totW = Object.values(state.weights).reduce((a,b)=>a+(parseFloat(b)||0),0);
+  const warn = document.getElementById('weightWarn');
+  if (Math.round(totW) !== 100){ warn.classList.remove('hidden'); document.getElementById('weightTotal').textContent = totW; }
+  else warn.classList.add('hidden');
+
+  renderInvChecklists();
+  refreshIcons();
+}
+function onInvCash(v){ state.invCash = Math.max(0, parseFloat(v)||0); save(); renderInvestSoft(); }
+function onWeight(k,v){ state.weights[k] = Math.max(0, parseFloat(v)||0); save(); renderInvest(); }
+function updateHolding(id, v){
+  const h = state.holdings.find(h=>h.id===id);
+  if (h){ h.current = Math.max(0, parseFloat(v)||0); save(); renderInvestSoft(); }
+}
+function renderInvestSoft(){  // stats + regions only, so inputs keep focus
+  const t = pfTotals();
+  document.getElementById('pfInvested').textContent = gbp(t.invested);
+  document.getElementById('pfValue').textContent = gbp(t.total);
+  const gain = t.value - t.invested;
+  const pct = t.invested > 0 ? gain / t.invested * 100 : 0;
+  const g = document.getElementById('pfGain');
+  g.textContent = state.holdings.length ? `${gain>=0?'+':'−'}${gbp(Math.abs(gain))} · ${pct>=0?'+':''}${pct.toFixed(1)}%` : '—';
+  g.style.color = gain >= 0 ? 'var(--inc)' : 'var(--over)';
+}
+function removeHolding(id){ state.holdings = state.holdings.filter(h=>h.id!==id); save(); renderInvest(); }
+function openHoldingSheet(){
+  document.getElementById('hDate').value = new Date().toISOString().slice(0,10);
+  ['hName','hTicker','hPlatform','hPrice','hUnits'].forEach(i=>document.getElementById(i).value='');
+  document.getElementById('hMsg').textContent='';
+  document.getElementById('hsheet').classList.add('open');
+}
+function closeHoldingSheet(){ document.getElementById('hsheet').classList.remove('open'); }
+function saveHolding(){
+  const g = id => document.getElementById(id);
+  const price = parseFloat(g('hPrice').value), units = parseFloat(g('hUnits').value);
+  const name = g('hName').value.trim();
+  if (!name || !(price>0) || !(units>0)){
+    g('hMsg').textContent = 'Needs at least an asset name, a price above zero and units above zero.';
+    return;
+  }
+  state.holdings.push({
+    id: Date.now(), date: g('hDate').value || new Date().toISOString().slice(0,10),
+    name, ticker: g('hTicker').value.trim().toUpperCase(),
+    platform: g('hPlatform').value.trim(), country: g('hCountry').value,
+    ccy: g('hCcy').value, price, units, current: +(price*units).toFixed(2)
+  });
+  save(); closeHoldingSheet(); renderInvest();
+}
+function renderInvChecklists(){
+  const wrap = document.getElementById('investChecklists');
+  const openNow = new Set([...wrap.querySelectorAll('details[open]')].map(d=>d.dataset.cid));
+  const first = !wrap.innerHTML.trim();
+  wrap.innerHTML = INV_CHECKLISTS.map(c => {
+    const done = c.items.filter((_,i)=>state.checks[`${c.id}-${i}`]).length;
+    const open = first ? false : openNow.has(c.id);
+    return `<details class="card" data-cid="${c.id}" ${open?'open':''}>
+      <summary class="p-4 flex items-center gap-2.5">
+        <i data-lucide="${c.icon}" style="width:1.05rem;height:1.05rem;color:var(--muted)"></i>
+        <span class="font-semibold text-sm">${c.title}</span>
+        <span class="mono text-xs ml-auto" style="color:${done===c.items.length?'var(--inc)':'var(--muted)'}">${done}/${c.items.length}</span>
+      </summary>
+      <div class="px-4 pb-4 space-y-2.5">
+        ${c.items.map((item,i)=>`
+          <label class="flex items-start gap-2.5 cursor-pointer text-sm leading-snug" style="color:${state.checks[`${c.id}-${i}`]?'var(--faint)':'var(--text)'}">
+            <input type="checkbox" ${state.checks[`${c.id}-${i}`]?'checked':''} onchange="toggleCheck('${c.id}-${i}')"
+                   style="accent-color:#10b981;width:1rem;height:1rem;margin-top:.15rem;flex-shrink:0">
+            <span style="${state.checks[`${c.id}-${i}`]?'text-decoration:line-through':''}">${item}</span>
+          </label>`).join('')}
+      </div>
+    </details>`;
+  }).join('');
+}
+function toggleCheck(key){ state.checks[key] = !state.checks[key]; save(); renderInvChecklists(); refreshIcons(); }
+function migrateCrossline(){
+  if (state.migratedCrossline || state.holdings.length) return;
+  try{
+    const raw = localStorage.getItem('crossline-v1');
+    if (!raw) return;
+    const c = JSON.parse(raw);
+    if (Array.isArray(c.holdings) && c.holdings.length){
+      state.holdings = c.holdings;
+      if (c.weights) state.weights = c.weights;
+      if (c.cash) state.invCash = c.cash;
+      if (c.checks) state.checks = { ...c.checks, ...state.checks };
+      if (!state.income && c.income) state.income = c.income;
+      if (c.fx) state.fx = { ...state.fx, ...c.fx };
+      state.migratedCrossline = true;
+      save();
+    }
+  }catch(e){}
+}
+
+/* ================= PASSCODE LOCK ================= */
+const PIN_HASH = 871416540;  // FNV-1a of the salted passcode — the code itself is not stored here
+function fnv(str){ let h=0x811c9dc5; for(let i=0;i<str.length;i++){ h^=str.charCodeAt(i); h=Math.imul(h,0x01000193)>>>0; } return h; }
+function isUnlocked(){ try{ return sessionStorage.getItem('tally-unlocked')==='1'; }catch(e){ return window.__unlocked===true; } }
+function setUnlocked(v){ try{ v ? sessionStorage.setItem('tally-unlocked','1') : sessionStorage.removeItem('tally-unlocked'); }catch(e){} window.__unlocked=v; }
+function tryUnlock(){
+  const inp = document.getElementById('pinInput');
+  if (fnv('tally|' + inp.value) === PIN_HASH){
+    setUnlocked(true);
+    document.getElementById('lockScreen').style.display = 'none';
+    inp.value = '';
+  } else {
+    const card = document.getElementById('lockCard');
+    document.getElementById('pinMsg').textContent = 'That passcode isn\'t right — try again.';
+    card.classList.remove('shake'); void card.offsetWidth; card.classList.add('shake');
+    inp.value = ''; inp.focus();
+  }
+}
+function lockApp(){
+  setUnlocked(false);
+  document.getElementById('pinMsg').textContent = '';
+  document.getElementById('lockScreen').style.display = 'flex';
+  if (bioCred()) document.getElementById('bioBtn').style.display = 'flex';
+  setTimeout(()=>document.getElementById('pinInput').focus(), 150);
+}
+function initLock(){
+  if (isUnlocked()) document.getElementById('lockScreen').style.display = 'none';
+  else setTimeout(()=>document.getElementById('pinInput').focus(), 250);
+  setupBio();
+}
+
+/* ---- Fingerprint (WebAuthn platform authenticator; needs https hosting) ---- */
+const BIO_KEY = 'tally-biocred';
+const b64 = buf => btoa(String.fromCharCode(...new Uint8Array(buf)));
+const unb64 = str => Uint8Array.from(atob(str), c => c.charCodeAt(0));
+function bioCred(){ try{ return localStorage.getItem(BIO_KEY); }catch(e){ return null; } }
+async function bioAvailable(){
+  if (!window.PublicKeyCredential || !navigator.credentials) return false;
+  if (location.protocol !== 'https:' && location.hostname !== 'localhost') return false;
+  try{ return await PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable(); }
+  catch(e){ return false; }
+}
+async function setupBio(){
+  const status = document.getElementById('bioStatus');
+  const enroll = document.getElementById('bioEnrollBtn');
+  const remove = document.getElementById('bioRemoveBtn');
+  const lockBtn = document.getElementById('bioBtn');
+  const ok = await bioAvailable();
+  if (!ok){
+    status.textContent = location.protocol === 'file:' || location.protocol === 'content:'
+      ? 'Fingerprint needs the app to run from a web address (https) — browsers block it for files opened from storage. Host this file for free on GitHub Pages or Netlify and this option switches on automatically. The passcode always works either way.'
+      : 'No fingerprint sensor is available to the browser on this device. The passcode still protects the app.';
+    return;
+  }
+  if (bioCred()){
+    status.textContent = 'Fingerprint unlock is on. The passcode still works as a backup.';
+    remove.classList.remove('hidden');
+    lockBtn.style.display = 'flex';
+  } else {
+    status.textContent = 'Your device supports fingerprint unlock. Enable it and the lock screen gains a fingerprint button; the passcode stays as a backup.';
+    enroll.classList.remove('hidden');
+  }
+}
+async function enrollBio(){
+  try{
+    const cred = await navigator.credentials.create({ publicKey:{
+      challenge: crypto.getRandomValues(new Uint8Array(32)),
+      rp: { name: 'Uche — Road to Financial Freedom', id: location.hostname },
+      user: { id: crypto.getRandomValues(new Uint8Array(16)), name: 'uche', displayName: 'Uche' },
+      pubKeyCredParams: [{type:'public-key', alg:-7},{type:'public-key', alg:-257}],
+      authenticatorSelection: { authenticatorAttachment:'platform', userVerification:'required', residentKey:'preferred' },
+      timeout: 60000
+    }});
+    localStorage.setItem(BIO_KEY, b64(cred.rawId));
+    document.getElementById('bioEnrollBtn').classList.add('hidden');
+    setupBio();
+  }catch(e){
+    document.getElementById('bioStatus').textContent = 'Enrolment was cancelled or failed — you can try again any time.';
+  }
+}
+function removeBio(){
+  try{ localStorage.removeItem(BIO_KEY); }catch(e){}
+  document.getElementById('bioRemoveBtn').classList.add('hidden');
+  document.getElementById('bioBtn').style.display = 'none';
+  setupBio();
+}
+async function bioUnlock(){
+  const id = bioCred();
+  if (!id) return;
+  try{
+    await navigator.credentials.get({ publicKey:{
+      challenge: crypto.getRandomValues(new Uint8Array(32)),
+      allowCredentials: [{ type:'public-key', id: unb64(id), transports:['internal'] }],
+      userVerification: 'required',
+      timeout: 60000
+    }});
+    setUnlocked(true);
+    document.getElementById('lockScreen').style.display = 'none';
+  }catch(e){
+    document.getElementById('pinMsg').textContent = 'Fingerprint didn\'t verify — use the passcode instead.';
+  }
+}
+
+/* ================= NAV & INIT ================= */
+const VIEW_TINT = { home:'#edf9f2', activity:'#fdf5e6', stats:'#fdeff1', invest:'#eff0fe',
+                    portfolio:'#f6effe', setup:'#eaf7fb', settings:'#f1f4f7' };
+function showView(name){
+  Object.keys(VIEW_TINT).forEach(v => document.body.classList.remove('v-'+v));
+  document.body.classList.add('v-'+name);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', VIEW_TINT[name]);
+  ['home','activity','stats','invest','portfolio','setup','settings'].forEach(v => {
+    document.getElementById('view-'+v).classList.toggle('hidden', v!==name);
+  });
+  document.querySelectorAll('[data-nav]').forEach(b => b.classList.toggle('on', b.dataset.nav===name));
+  if (name==='stats') renderStats();
+  if (name==='activity') renderActivity();
+  if (name==='invest' || name==='portfolio' || name==='setup') renderInvest();
+  window.scrollTo({top:0});
+}
+function initInputs(){
+  document.getElementById('incomeInput').value = state.income || '';
+  document.getElementById('carryToggle').checked = state.carryover !== false;
+  document.getElementById('pctLiving').value  = state.pct?.living  ?? 40;
+  document.getElementById('pctSavings').value = state.pct?.savings ?? 20;
+  document.getElementById('pctInvest').value  = state.pct?.invest  ?? 40;
+  document.getElementById('fxUSD').value = state.fx.USD;
+  document.getElementById('fxNGN').value = state.fx.NGN;
+}
+function renderAll(){ renderHome(); renderAccounts(); renderActivity(); renderInvest(); }
+migrateCrossline();
+initLock();
+initInputs(); renderAll(); refreshIcons();
+</script>
+</body>
+</html>
